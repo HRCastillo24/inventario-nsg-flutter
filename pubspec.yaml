@@ -1,0 +1,47 @@
+name: nsg_inventario
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.2.0+2
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^8.0.0
+  cupertino_icons: ^1.0.2
+  http: ^1.6.0
+  provider: ^6.0.5
+  flutter_secure_storage: ^9.0.0
+  intl: ^0.18.0
+  jwt_decoder: ^2.0.1
+  google_fonts: ^6.1.0
+  percent_indicator: ^4.2.5
+  flutter_pdfview: ^1.3.3
+  path_provider: ^2.1.3
+  share_plus: ^10.0.2
+  fl_chart: ^0.65.0
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  excel: ^4.0.2
+  open_file: ^3.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.jpg
+    - assets/icons/iconoap.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/iconoap.png"
